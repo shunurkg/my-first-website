@@ -1,0 +1,96 @@
+body {
+    background-image: url("spring.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color : green;
+    justify-content: center;
+    
+  }
+
+  .container > div {
+    background-color: yellowgreen;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+  }
+  #a{
+      flex :1;
+      text-align: left; 
+
+  }
+
+  a {
+      text-decoration: none;
+      color: #000;
+  }
+
+  img {
+    height: 200px;
+    width: 300px;
+    object-fit: fill;
+
+    
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%; 
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-auto-columns: 100px;
+    padding: 0px;
+  }
+  .grid-item {
+    
+    padding: 0px;
+    
+
+  text-align: center;
+  }
+
+
+  .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: blue
+
+  }
+
+  .content a{
+      margin-right: 10px;
+      padding-right: 10px;
+      
+  }
+  .content i{
+          margin-right: 10px;
+          padding-right: 10px;
+  }
+  .skill
+  {
+      color: blue;
+  }
+
